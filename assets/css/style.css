@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Elsie:wght@400;900&family=Luxurious+Script&family=Manrope:wght@200..800&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --color--btn: #ffff00;
+    --color--black: #000000;
+    --color--white: #ffffff;
+    --color--grey: #f8f9fa;
+    --color--primary: #007bff;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff;
+}
+
+#home{
+    background-image: url('../IMG/hero52.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.btn-color{
+    border-radius: 0%;
+    border-color: transparent;
+    color: var(--color--black);
+    background-color: #ffff00;
+    transition: all 0.3s ease-in-out;
+    border-width: 2px;
+}
+
+.btn-outline-primary{
+    border-radius: 0%;
+    border-color: var(--color--black);
+    color: var(--color--black);
+    transition: all 0.3s ease-in-out;
+}
+.btn-outline-primary:hover{
+    border-color: transparent;
+    background: var(--color--black);
+    color: #fff;
+}
+
+.btn-color:hover{
+    border-color: transparent;
+    background: var(--color--black);
+    color: #fff;
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-content{
+    padding-left: 120px;
+    /* padding-right: 120px; */
+}
+
+.paragraph{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.products{
+    background-color: var(--color--black);
+    color: var(--color--grey);
+}
+
+.card{
+    border-radius: 0%;
+    border-color: transparent;
+    color: var(--color--black);
+    background-color: var();
+    transition: all 0.3s ease-in-out;
+    border-width: 2px;
+}
